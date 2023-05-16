@@ -1,0 +1,3 @@
+[submodule "doc-storage-frontend"]
+	path = doc-storage-frontend
+	url = https://github.com/saizaax/doc-storage-frontend
