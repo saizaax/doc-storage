@@ -62,6 +62,8 @@ networks:
     external: false
   doc-storage-network:
     external: true
+  traefik-gateway:
+    external: true
 
 volumes:
   postgres-doc-storage-data:
