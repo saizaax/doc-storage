@@ -51,11 +51,11 @@ services:
       labels:
         - "traefik.enable=true"
         - "traefik.port=80"
-        - "traefik.http.routers.schedule.rule=Host(`example.com`)"
-        - "traefik.http.routers.schedule.entrypoints=websecure"
-        - "traefik.http.routers.schedule.tls.certresolver=letsencrypt"
-        - "traefik.http.routers.schedule.tls=true"
-        - "traefik.http.services.schedule.loadbalancer.server.port=80"
+        - "traefik.http.routers.docstorage.rule=Host(`example.com`)"
+        - "traefik.http.routers.docstorage.entrypoints=websecure"
+        - "traefik.http.routers.docstorage.tls.certresolver=letsencrypt"
+        - "traefik.http.routers.docstorage.tls=true"
+        - "traefik.http.services.docstorage.loadbalancer.server.port=80"
 
 networks:
   default:
